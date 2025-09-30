@@ -13,7 +13,7 @@ class Book {
 
 class Title: public Book {
     public:
-    string title="Dune";
+    string title="The Three Musketeers";
 };
 
 class Library: public Title {
@@ -25,4 +25,5 @@ int main(){
     Library b3;
     b3.type();
     cout<<b3.genre<<": "<<b3.title<<endl;
+
     cout<<"Library: "<<b3.name;
